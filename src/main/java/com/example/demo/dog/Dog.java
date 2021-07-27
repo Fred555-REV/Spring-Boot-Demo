@@ -34,4 +34,13 @@ public class Dog {
     public void setHairColor(String hairColor) {
         this.hairColor = hairColor;
     }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                ", size='" + size + '\'' +
+                ", hairColor='" + hairColor + '\'' +
+                '}';
+    }
 }
