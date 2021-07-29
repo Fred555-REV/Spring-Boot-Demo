@@ -36,10 +36,10 @@ public class StudentController {
         );
     }
 
-//    @PutMapping
-//    public void addStudent() {
-//        this.studentService.addStudent();
-//    }
+    @PutMapping(path = "add")
+    public void addStudent() {
+        this.studentService.addStudent();
+    }
 
     @DeleteMapping
     public void deleteStudents(List<Student> students) {
